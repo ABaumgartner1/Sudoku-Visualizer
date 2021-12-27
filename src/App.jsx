@@ -24,9 +24,11 @@ function App() {
         if (cellSelected){
             document.getElementById(cellSelected).removeAttribute("selected");
             document.getElementById(cellSelected).style.backgroundColor="";
+            document.getElementById(cellSelected).blur();
 
             document.getElementById(id).setAttribute("selected","true");
             document.getElementById(id).style.backgroundColor="#ADD8E6";
+            document.getElementById(id).focus();
             setCellSelected(id);
         } else {
             document.getElementById(id).setAttribute("selected","true");
