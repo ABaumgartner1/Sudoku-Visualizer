@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/Sudoku-Visualizer/static/js/main.bfac6189.js",
+    "index.html": "/Sudoku-Visualizer/index.html",
+    "main.bfac6189.js.map": "/Sudoku-Visualizer/static/js/main.bfac6189.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.bfac6189.js"
+  ]
+}
