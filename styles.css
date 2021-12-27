@@ -4,7 +4,7 @@ body {
 }
 
 p {
-    margin-top: 25%;
+    margin-top: 0;
 }
 
 input {
@@ -44,10 +44,6 @@ input[type=number] {
         grid-template-columns: repeat(9, 3.5rem);
         grid-template-rows: repeat(9, 3.5rem);
     }
-
-    p {
-        margin-top: 18%;
-    }
 }
 
 .grid-item {
@@ -60,6 +56,8 @@ input[type=number] {
     animation-delay: calc(var(--animation-order)*100ms);
     animation-fill-mode: both;
     animation-timing-function: ease-in-out;
+    box-sizing: border-box;
+    padding-top: 20%;
 }
 .grid-item:hover {
     transform: scale(1.1);
