@@ -40,9 +40,13 @@ input[type=number] {
 
 @media only screen and (max-width: 768px) {
     .grid-container {
-        width: 36rem;
-        grid-template-columns: repeat(9, 5rem);
-        grid-template-rows: repeat(9, 5rem);
+        width: 54rem;
+        grid-template-columns: repeat(9, 6rem);
+        grid-template-rows: repeat(9, 6rem);
+    }
+
+    p {
+        margin-top: 5%;
     }
 }
 
