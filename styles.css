@@ -41,8 +41,8 @@ input[type=number] {
 @media only screen and (max-width: 768px) {
     .grid-container {
         width: 36rem;
-        grid-template-columns: repeat(9, 4rem);
-        grid-template-rows: repeat(9, 4rem);
+        grid-template-columns: repeat(9, 5rem);
+        grid-template-rows: repeat(9, 5rem);
     }
 }
 
