@@ -40,9 +40,9 @@ input[type=number] {
 
 @media only screen and (max-width: 768px) {
     .grid-container {
-        width: 31.5rem;
-        grid-template-columns: repeat(9, 3.5rem);
-        grid-template-rows: repeat(9, 3.5rem);
+        width: 36rem;
+        grid-template-columns: repeat(9, 4rem);
+        grid-template-rows: repeat(9, 4rem);
     }
 }
 
@@ -58,6 +58,7 @@ input[type=number] {
     animation-timing-function: ease-in-out;
     box-sizing: border-box;
     padding-top: 20%;
+    caret-color: transparent;
 }
 .grid-item:hover {
     transform: scale(1.1);
